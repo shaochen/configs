@@ -1,0 +1,8 @@
+#nasty irssi timeout screenfreeze prevention
+defflow off # set default flow off
+defnonblock 1 #1 second timeout 
+autodetach on
+
+#non-fancy status bar
+caption always "%{wk} %?%-Lw%?%{+b wk}%n*%f %t%?(%u)%?%{-b wk}%?%+Lw%? %{wk}"
+
