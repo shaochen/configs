@@ -1,25 +1,26 @@
 " My default vim config
 
-" Works with Dark backgrounds
-" colorscheme desert 
-syntax on
+syntax enable
 
-set nocompatible " Use Vim Defaults
+set background=dark
+
+" Tabs to spaces etc
+set expandtab " Expand tabs to spaces
 set backspace=2 " Allow backspacing of everything
+set tabstop=2
+set shiftwidth=2
+
+" indents etc
 set autoindent
 set smartindent
-set tabstop=2
-set expandtab " Expand tabs to spaces
-set shiftwidth=2
-set showmatch
-set guioptions-=T
-set vb t_vb=
-set ruler
-set nohls
-" set incsearch search as you type
-set virtualedit=all
-set ls=2 " always show filename on the bottom
 
+" meh
+set vb t_vb=  "No bells or flashes
+
+" ruler ( displays line number, column no, .. )
+set ruler
+
+set ls=2 " always show filename on the bottom
 
 <<<<<<< HEAD
 "===== Searching
@@ -29,4 +30,8 @@ set ignorecase " do case insensitive matching
 set ignorecase "do case insensitive matching
 >>>>>>> 0d46903... add space to comments
 set smartcase   " case sensitive if uppercase
+set nohlsearch " disable highlighting of searches
+
+" GUI
+set guioptions-=T
 
