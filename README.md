@@ -1,0 +1,2 @@
+mind the '.' in '.vimrc'
+
