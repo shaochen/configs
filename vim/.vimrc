@@ -1,16 +1,16 @@
 " My default vim config
 
 " Works with Dark backgrounds
-colorscheme desert 
+" colorscheme desert 
 syntax on
 
 set nocompatible " Use Vim Defaults
 set backspace=2 " Allow backspacing of everything
 set autoindent
 set smartindent
-set tabstop=4
+set tabstop=2
 set expandtab " Expand tabs to spaces
-set shiftwidth=4
+set shiftwidth=2
 set showmatch
 set guioptions-=T
 set vb t_vb=
