@@ -7,8 +7,8 @@ set background=dark
 " Tabs to spaces etc
 set expandtab " Expand tabs to spaces
 set backspace=2 " Allow backspacing of everything
-set tabstop=2
-set shiftwidth=2
+set tabstop=4
+set shiftwidth=4
 
 " indents etc
 set autoindent
